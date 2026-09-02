@@ -1,1 +1,0 @@
-This is CRUD local APP in fastAPI
