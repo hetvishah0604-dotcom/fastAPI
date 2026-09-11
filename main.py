@@ -49,8 +49,8 @@ def create_product(product: Product, response: Response):
         }
 
 
-# @app.put("/products/{productid}")
-# def update_product(productid: int, product: Product, response: Response):
+@app.put("/products/{productid}")
+def update_product(productid: int, product: Product, response: Response):
     try:
         for index in range(len(products)):
 
